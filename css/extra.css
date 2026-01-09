@@ -1,0 +1,31 @@
+/* Muestra a la derecha imágenes cuyo alt termine en ">" */
+img[alt$=">"] {
+    float: right;
+}
+
+/* Muestra a la izquierda imágenes cuyo alt termine en "<" */
+img[alt$="<"] {
+    float: left;
+}
+
+/* Formato general para imágenes */
+img {
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+    height: auto;
+    margin: auto;
+    float: none !important;
+}
+
+/* Anchura para rejillas (por ejemplo, el panel central de la página */
+.md-grid {
+    max-width: initial;
+}
+
+div .imagen
+{
+    text-align:center;
+    margin-left:30%;
+    margin-right:30%;
+}
